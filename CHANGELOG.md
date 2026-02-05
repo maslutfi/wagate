@@ -14,6 +14,7 @@ All notable changes to the WAGate Landing Page will be documented in this file.
 ### Fixed
 - Improved Open Graph meta descriptions.
 - Verified `sitemap.xml` and `robots.txt` paths for GitHub Pages.
+- Corrected Docker Hub Documentation link to `hub.docker.com/r/elefgo/wagate`.
 
 ## [1.0.0] - 2026-02-04
 

@@ -17,6 +17,7 @@ The page is deployed using **GitHub Pages**.
 - **Twitter Cards**: Configured for Twitter sharing.
 - **Schema.org**: Includes `SoftwareApplication` JSON-LD for better search engine indexing.
 - **Sitemap & Robots**: Verified for a standard GitHub Pages subdirectory (`/wagate/`).
+- **Docs Link**: Updated to point to the official Docker Hub repository for accurate documentation.
 
 ## Project Structure
 - `index.html`: Main structure with SEO and Schema.
