@@ -1,0 +1,10 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Idea files
+.idea/
+.vscode/
+
+# Project specific
+IMPLEMENTATION_PLAN.md

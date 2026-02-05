@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elefgo.github.io/wagate/sitemap.xml
