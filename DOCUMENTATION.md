@@ -26,3 +26,19 @@ The page is deployed using **GitHub Pages**.
 - `assets/`: Contains images and icons.
 - `sitemap.xml`: XML sitemap for search engines.
 - `robots.txt`: Search engine crawling instructions.
+## Marketing & Growth
+To attract the first buyer, focus on these channels:
+
+### 1. n8n Community Node
+WAGate's value proposition is highest in the n8n ecosystem. 
+- **Submission**: Create an npm package for the community node and submit it to the [n8n community nodes list](https://docs.n8n.io/integrations/community-nodes/).
+- **Keywords**: Use "WhatsApp", "Gateway", "Automation", "Self-hosted".
+
+### 2. Trust Building
+- **FAQ Section**: Now live on the landing page.
+- **Promo Banner**: Added a launch discount (50% OFF) to reduce entry friction.
+- **Analytics**: GA4 placeholder added to track visitor journey.
+
+### 3. SEO Strategy
+- Long-tail keywords targeting "WhatsApp Gateway for n8n" and "open source whatsapp api bridge".
+- Consistent updates to the GitHub README (Free tier) to drive traffic to Pro.

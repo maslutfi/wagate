@@ -49,9 +49,22 @@
       "description": "Professional WhatsApp Gateway for n8n and developers. Self-hosted, secure, and blazing fast."
     }
     </script>
+
+    <!-- Google Analytics (GA4) - Replace G-XXXXXXXXXX with your actual ID -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
 </head>
 
 <body>
+    <div class="promo-banner">
+        🚀 BLACK FRIDAY & LAUNCH SPECIAL: Get 50% OFF Pro Lifetime with code: <strong>WAGATE50</strong>
+    </div>
+
     <div class="bg-blob blob-1"></div>
     <div class="bg-blob blob-2"></div>
 
@@ -206,6 +219,74 @@
                 </ul>
                 <a href="https://lutfifahmani.gumroad.com/l/wagate" class="btn btn-primary"
                     style="display: block;">Unlock Full Access</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq container">
+        <div class="section-header">
+            <h2>Common Questions</h2>
+            <p style="color: var(--text-muted);">Everything you need to know about WAGate.</p>
+        </div>
+
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Will my WhatsApp number get banned?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>WAGate uses the official Go-WhatsApp library which mimics the browser session. Respect WhatsApp's
+                        Terms of Service: don't send unsolicited spam, and maintain a reasonable delay between messages.
+                        Our Pro version includes built-in rate-limiting tools to help you stay safe.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How does self-hosting work?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>WAGate is distributed as a lightweight Docker container or a standalone binary. You can run it on
+                        any VPS (even a $5/mo server), home server, or Raspberry Pi. Once running, you scan a QR code
+                        just like WhatsApp Web, and your API is ready.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Does it support n8n community node?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We have a dedicated n8n node that allows you to drag-and-drop WAGate into your workflows. No
+                        complex HTTP Request nodes needed—just enter your WAGate URL and API Key.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I upgrade from Free to Pro later?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely. You can start with the Free tier to test your integration. When you're ready for bulk
+                        features or unlimited devices, simply purchase a license and enter the key in your dashboard. No
+                        data migration required.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is my data secure?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>WAGate is 100% self-hosted. Your message history, session keys, and media never leave your
+                        server. We don't have a middle-man server, making it much more secure than cloud-based WhatsApp
+                        APIs.</p>
+                </div>
             </div>
         </div>
     </section>
